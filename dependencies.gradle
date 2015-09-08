@@ -1,0 +1,50 @@
+ext {
+    libs = [
+            commons         : [
+                    "org.apache.commons:commons-lang3:${version_apache_commons_commons_lang3}",
+                    "commons-codec:commons-codec:${version_commons_codec}",
+                    "com.google.guava:guava:${version_google_guava}",
+                    "org.hibernate:hibernate-validator:${version_hibernate_validator}",
+                    "joda-time:joda-time:${version_joda_time}"
+            ],
+            httpclient      : [
+                    "org.apache.httpcomponents:httpcore:${version_apache_httpcomponents_httpcore}",
+                    "org.apache.httpcomponents:httpclient:${version_apache_httpcomponents_httpclient}"
+            ],
+            springBoot      : [
+                    "org.springframework.boot:spring-boot-starter:${version_spring_boot}",
+                    "org.springframework.boot:spring-boot-starter-web:${version_spring_boot}",
+                    "org.springframework.boot:spring-boot-starter-security:${version_spring_boot}",
+                    "org.springframework.boot:spring-boot-starter-data-mongodb:${version_spring_boot}"
+            ],
+            springRedis : [
+                    "org.springframework.boot:spring-boot-starter-redis:${version_spring_boot}"
+            ],
+            springSecurity : [
+                    "org.springframework.boot:spring-boot-starter-security:${version_spring_boot}"
+            ],
+            springSaml : [
+                    "org.springframework.security.extensions:spring-security-saml2-core:${version_spring_security_saml2}"
+            ],
+            springBootTomcat: [
+                    "org.springframework.boot:spring-boot-starter-tomcat:${version_spring_boot}"
+            ],
+            jackson2        : [
+                    "com.fasterxml.jackson.core:jackson-annotations:${version_fasterxml_jackson_annotations}",
+                    "com.fasterxml.jackson.core:jackson-core:${version_fasterxml_jackson_core}",
+                    "com.fasterxml.jackson.core:jackson-databind:${version_fasterxml_jackson_databind}"
+            ],
+            swagger2        : [
+                    "io.swagger:swagger-annotations:${version_io_swagger_swagger}",
+                    "io.swagger:swagger-models:${version_io_swagger_swagger}",
+                    "io.springfox:springfox-swagger2:${version_springfox_swagger2}",
+                    "io.springfox:springfox-swagger-ui:${version_springfox_swagger2}"
+            ],
+            test            : [
+                    "junit:junit:${version_junit}",
+                    "org.mockito:mockito-all:${version_mockito}",
+                    "com.jayway.jsonpath:json-path:${version_jayway_json_path}",
+                    "org.springframework.boot:spring-boot-starter-test:${version_spring_boot}"
+            ]
+    ]
+}

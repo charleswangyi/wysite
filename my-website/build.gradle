@@ -1,0 +1,34 @@
+group 'com.jingantech.ngiam'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.5.RELEASE")
+    }
+}
+
+apply plugin: 'spring-boot'
+apply plugin: 'idea'
+apply plugin: 'war'
+
+war {
+    baseName = 'my-website'
+}
+
+dependencies {
+    def springBootVersion = '1.2.5.RELEASE'
+    compile 'org.codehaus.jackson:jackson-mapper-lgpl:1.9.9'
+    compile 'com.google.guava:guava:17.0'
+    compile("javax.servlet:javax.servlet-api:3.1.0")
+    compile("org.springframework.boot:spring-boot-starter:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-data-mongodb:${springBootVersion}")
+    compile 'com.alibaba:fastjson:1.2.6'
+
+    providedRuntime("org.springframework.boot:spring-boot-starter-tomcat:${springBootVersion}")
+
+}

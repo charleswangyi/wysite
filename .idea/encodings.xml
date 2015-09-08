@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/my-website/src/main/java/com/wangyi/website/ApplicationInitializer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-website/src/main/java/com/wangyi/website/MicroServiceStartupCallback.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-website/src/main/java/com/wangyi/website/controller/BackendController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-website/src/main/java/com/wangyi/website/model/CategoryModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-website/src/main/java/com/wangyi/website/model/ItemModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-website/src/main/java/com/wangyi/website/model/SubjectModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-website/src/main/java/com/wangyi/website/service/CategoryRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-website/src/main/java/com/wangyi/website/service/ItemRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-website/src/main/java/com/wangyi/website/service/SubjectRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-website/src/main/resources/application.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-website/src/main/resources/static/js/backend/controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-website/src/main/resources/static/js/html/controller.js" charset="UTF-8" />
+  </component>
+</project>

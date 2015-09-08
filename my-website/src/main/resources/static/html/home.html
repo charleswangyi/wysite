@@ -1,0 +1,15 @@
+
+<div class="container">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-lg-4" ng-repeat="category in categories">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4 class="h4">{{category.categoryName}}</h4>
+                    <p>{{category.describe}}</p>
+                    <span class="pull-right"><a  ng-href="#/list/{{category.category}}/" ng-click="activeBar(category.category)">点击进入...»</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /.container -->
